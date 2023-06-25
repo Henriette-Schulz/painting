@@ -1,0 +1,41 @@
+#navigation {
+	position: fixed;
+	top: 0;
+	left: calc(47% - 20em);
+	z-index: 99;
+	margin: 0 auto;
+	padding: 1em;
+	width: 50em;
+	background: transparent;
+	list-style: none;
+}
+
+#navigation li {
+	float: left;
+	height: 2em;
+	text-align: center;
+	margin: 0;
+	border: thin solid grey;
+	border-radius: .5em;
+	line-height: 150%;
+	margin: 0 0 0 1em;
+}
+
+#navigation li a,
+#navigation li a:link,
+#navigation li a:visited {
+	text-decoration: none;
+	display: block;
+	height: 2em;
+	color: grey;
+	font-weight: bold;
+	padding: 0.1em 1em;
+}
+
+#navigation li a:hover,
+#navigation li a:focus,
+#navigation li a:active {
+
+	text-decoration: underline grey;
+	border-radius: .5em;
+}

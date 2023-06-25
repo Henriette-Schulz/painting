@@ -1,0 +1,113 @@
+@media (prefers-reduced-motion: no-preference) {
+	html,
+	body {
+		margin: 0;
+		padding: 0;
+		scroll-snap-type: y mandatory;
+		scroll-behavior: smooth;
+		scroll-padding: 0;
+	}
+	section {
+		scroll-snap-align: start;
+		scroll-margin: 0;
+	}
+}
+
+html,
+body {
+	position: relative;
+}
+
+section {
+	background: #fff;
+	min-height: 100vh;
+	padding: 2.5em;
+}
+
+
+section > * {
+	max-width: 60em;
+	margin: 0.5em auto;
+}
+
+section h2 {
+	font-size: 4em;
+	text-align: center;
+	line-height: 2rem;
+	-webkit-backface-visibility: hidden;
+}
+
+section p {
+	text-align: justify;
+	-webkit-backface-visibility: hidden;
+}
+/* Colored sections */
+
+#part_1 {
+	/*background: #fffbf0;*/
+	background: #fbfdff;
+}
+
+#part_2 {
+	/*background: #ebf5d7;*/
+	background: #ffffff;
+}
+
+#part_3 {
+	/*background: #ffebe6;*/
+	background: #edf6ff;
+}
+
+#part_4 {
+	background: #ffffff;
+}
+
+@media screen and (max-width: 32em) {
+	section h2 {
+		font-size: 2em;
+	}
+	section p {
+		width: 90%;
+		left: 5%;
+		margin-top: 0;
+	}
+}
+
+
+figure,
+figcaption {
+	margin: 0;
+	padding: 0;
+}
+
+#gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(12em, 1fr));
+	gap: 1em;
+	text-align: center;
+}
+
+#gallery figure {
+	position: relative;
+	color: black;
+	background: white;
+	text-align: center;
+}
+
+figure img {
+	width: 100%;
+	display: block;
+}
+
+#gallery > figure > figcaption {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	line-height: 1.5em;
+	color: white;
+	background: rgba(0, 0, 0, 1);
+}
+
+#gallery > figcaption {
+	grid-column: 1 / -1;
+}

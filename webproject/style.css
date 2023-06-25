@@ -1,0 +1,163 @@
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body {
+	font: 125% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	}
+p {
+	margin-top: 0;
+	text-align: justify;
+	}
+h3 {
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	color: #7D775C;
+	}
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+	color: #923F2A;
+	}
+a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: #AA7466;
+	}
+a:hover, a:focus, a:active {
+	text-decoration: underline;
+	color: #923F2A;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+header h1 {
+	margin-top: 10px;
+	display: block;
+	width: 219px;
+	height: 87px;
+	float: left;
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+header h2 {
+	margin-top: 58px;
+	margin-bottom: 40px;
+	width: 200px;
+	height: 18px;
+	float: right;
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+header {
+	padding-top: 20px;
+	height: 87px;
+}
+
+
+footer {
+	text-align: center;
+	}
+footer a:link, footer a:visited {
+	margin-right: 20px;
+	}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+}
+
+.flex-container > div {
+  background-color: transparent;
+  width: 350px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: #ffffff
+}
+
+.bgimg-impressionismus {
+    background-image: url('../media/seerosen_klein.png');      
+    height: 350px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.bgimg-barock {
+    background-image: url('../media/ohrring_klein.png');
+    height: 350px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.bgimg-renaissance {
+    background-image: url('../media/mona_lisa_klein.png');
+    height: 350px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.bgimg-popart {
+    background-image: url('../media/warhol_klein.png');
+    height: 350px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.bgimg-realismus {
+    background-image: url('../media/hacke_klein.png');
+    height: 350px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.bgimg-expressionismus {
+    background-image: url('../media/pferde_klein.png');
+    height: 350px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.bgimg-expressionismus {
+    background-image: url('../media/pferde_klein.png');
+    height: 350px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.bgimg-malerei {
+    background-image: url('../media/malerei.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+		background-attachment: fixed;
+}
